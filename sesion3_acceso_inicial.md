@@ -295,8 +295,19 @@ Si la contraseña te pide mínimo 8 caracteres y al menos un número, crear dicc
 Se aprochean de que por comodidad tendemos a reutilizar las mismas contraseñas para distintos servicios.
 
 ## Entrega por correo electrónico
+  * Confiurar SMTP como legítimo, crear reputación con ese servidor
+    * No hacer phishing un día después de crear el server, planificar con cierto tiempo la campaña, 30 días de antelación 
+    * O subirte a un dominio que ya tiene una historia, estar atento a un dominio que haya caducado y renovarlo tu
+    * Utilizacion de dominios comprometidos
+
 * Phishing
   * [GoPhish](https://getgophish.com/)
+  * Abusar de servicios de Microsoft o Google
+    * Abuso de storage.googleapis.com
+    * Abuso de core.windows.net
+
+* Adjuntos ofimáticos maliciosos
+  * Mejor excel, __menos cantoso__
   * Macros Office
   * MS Excel Macro 4.0
   * Inyección de plantillas remota
@@ -304,6 +315,8 @@ Se aprochean de que por comodidad tendemos a reutilizar las mismas contraseñas 
   * VBA Stomping
   * Uso maldocs
   * [EvilClippy](https://outflank.nl/blog/2019/05/05/evil-clippy-ms-office-maldoc-assistanthttps://www.pentestpartners.com/security-blog/how-to-create-poisoned-office-documents-for-your-staff-awareness-training-part-1/)
+
+
 
 
 
@@ -316,7 +329,19 @@ Se aprochean de que por comodidad tendemos a reutilizar las mismas contraseñas 
 * __Interesante__
   * Entorno virtualizado en word
 
+## Entrega vía web
+
+* magecart
+
 ## Entrega vía web: Exploit kits
+
+paquetes de codigo se insertan en wbe, si entra un cliente con determinados privilegios, se ejecuta el exploit
+
+navegadres se actualizan solo, menos en empresas, q controlan los ciclos de actualización
+
+cada poco tiempo hay un 0-day de Firefox o de Chrome
+
+imagen virtualizada de navegadr, para q no se actualizara
 
 * [Exploit kit](https://www.enisa.europa.eu/topics/csirts-in-europe/glossary/vulnerabilities-and-exploits)
 
@@ -333,9 +358,12 @@ Se aprochean de que por comodidad tendemos a reutilizar las mismas contraseñas 
 ## Escáneres de vulnerabilidades
 
 * [Nessus](https://es-la.tenable.com/products/nessus)
+  * Comercial
 * [Open VAS](https://www.openvas.org/)
+  * Open Source
 * [Acunetix](https://www.acunetix.com/vulnerability-scanner/)
-
+  * Seguridad Web
+  * [Nuclei](https://github.com/projectdiscovery/nuclei)
 
 
 
